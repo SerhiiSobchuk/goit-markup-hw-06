@@ -375,18 +375,18 @@
                     </ul>
                 </div>
 
-                <div>
-                    <p class="fotter-follow"><b>ПОДПИШИТЕСЬ НА РАССЫЛКУ</b></p>
-                    <ul>
-                        <li>
-                            <form>
-                                <input type="email" name="mail" placeholder="E-mail"> 
-                            </form>
-                        </li>
-                        <li>
-                            <button type="button">Подписаться</button>
-                        </li>
-                    </ul>
+                <div class="subscribe">
+                    <p class="mailing"><b>подпишитесь на рассылку</b></p>
+                    <form class="subs-form" action="" method="POST">
+                        <input class="subs-input" type="email" name="mail" placeholder="E-mail">
+                        <button type="submit" class="subs-btn">
+                            Подписаться <svg class="subs-icon">
+                                <use href="./images/icons/sprite-form.svg#follow-icon"></use>
+                            </svg>            
+                        </button>
+                        
+                    </form>
+                    
                 </div>
             </div>
         </div>
