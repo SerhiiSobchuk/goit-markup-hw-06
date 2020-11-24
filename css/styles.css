@@ -804,14 +804,22 @@ body {
 }
 
 .join-text {
-    Font Family: Roboto
-    Font Style: 700
-    Font Size: 14px
+    Font Family: Roboto;
+    Font Style: 700;
+    Font Size: 14px;
     Letter Spacing: 0.04em;
     color: #ffffff;
     margin-bottom: 20px;
 }
 
+.footer-follow {
+    Font Family: Roboto;
+    Font Style: 700;
+    Font Size: 14px;
+    Letter Spacing: 0.04em;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
 
 /* 2 страница */
 .all-port {
@@ -999,9 +1007,22 @@ body {
 
 .close-svg {
     display: flex;
-    till: #000000; 
+    fill: #000000; 
     width: 11px;
     height: 11px;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.close-button:hover .close-svg,
+.close-button:focus .close-svg {
+    fill: var(--accent-text-color);
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);    
+}
+
+.close-button:hover,
+.close-button:focus {
+    border: 3px solidrgba(0, 0, 0, 0.1);
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-button {
@@ -1017,6 +1038,7 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     cursor: pointer;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*форма модкалки героя */
