@@ -989,7 +989,7 @@ body {
 
 .modal {
     position: absolute;
-    top: 24%;
+    top: 15%;
     left: 33%;
     width: 528px;
     height: 581px;
@@ -1093,6 +1093,7 @@ body {
     border-radius: 4px;
     margin-bottom: 10px;
     padding-left: 35px;
+    outline: none;
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1133,6 +1134,7 @@ body {
     color: rgba(117, 117, 117, 0.5);
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+    outline: none;
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1282,6 +1284,7 @@ body {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
+    outline: none;
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
